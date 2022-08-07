@@ -1,0 +1,44 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    width: 100%;
+}
+
+.card {
+    justify-content: center;
+    width: 45%;
+    margin: auto;
+    line-height: 1.8rem;
+    border: none;
+}
+
+.card a {
+    color: #d00c0c;
+    text-decoration: none;
+}
+
+.card h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 36px;
+    margin-bottom: 3vh;
+}
+
+.card h6 {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 2.0rem;
+    font-size: 2vh;
+    text-align: justify;
+    margin-bottom: 4vh;
+}
+
+.card h5 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.card img {
+    width: 100%;
+}

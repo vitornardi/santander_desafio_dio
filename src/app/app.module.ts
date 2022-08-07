@@ -9,8 +9,9 @@ import { NavComponent } from './components/shared/nav/nav.component';
 import { BannerComponent } from './components/pages/banner/banner.component';
 import { DestaqueComponent } from './components/pages/destaque/destaque.component';
 import { BgimgComponent } from './components/pages/bgimg/bgimg.component';
-import { FormsModule } from '@angular/forms';
-import { MatFormFieldModule, MAT_FORM_FIELD_DEFAULT_OPTIONS } from '@angular/material/form-field';
+import { MatFormFieldModule, } from '@angular/material/form-field';
+import { TipoCartaoComponent } from './components/pages/tipo-cartao/tipo-cartao.component';
+
 
 @NgModule({
   declarations: [
@@ -20,17 +21,15 @@ import { MatFormFieldModule, MAT_FORM_FIELD_DEFAULT_OPTIONS } from '@angular/mat
     BannerComponent,
     DestaqueComponent,
     BgimgComponent,
+    TipoCartaoComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    FormsModule,
     MatFormFieldModule
   ],
-  providers: [
-    {provide: MAT_FORM_FIELD_DEFAULT_OPTIONS, useValue: {appearance: 'fill'}}
-  ],
+  providers: [ ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
