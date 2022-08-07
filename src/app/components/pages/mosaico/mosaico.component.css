@@ -1,0 +1,46 @@
+mat-grid-list {
+    background-color: rgb(251, 251, 251);
+}
+
+h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 36px;
+    margin-bottom: 3vh;
+    line-height: 3rem;
+}
+
+h2 {
+    font-size: 30px;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 3rem;
+    color: white;
+}
+
+h6 {
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+}
+
+p { 
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+img {
+    width: 100%;
+    margin-bottom: 110px;
+}
+
+.bg {
+    background-color: rgb(205, 0, 0);
+}
+
+.btn {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    width: 60%;
+    border-radius: 50px;
+    color: rgb(205, 0, 0);
+}

@@ -11,6 +11,9 @@ import { DestaqueComponent } from './components/pages/destaque/destaque.componen
 import { BgimgComponent } from './components/pages/bgimg/bgimg.component';
 import { MatFormFieldModule, } from '@angular/material/form-field';
 import { TipoCartaoComponent } from './components/pages/tipo-cartao/tipo-cartao.component';
+import { InterfaceAplicativoComponent } from './components/pages/interface-aplicativo/interface-aplicativo.component';
+import { MosaicoComponent } from './components/pages/mosaico/mosaico.component';
+import {MatGridListModule} from '@angular/material/grid-list';
 
 
 @NgModule({
@@ -22,12 +25,15 @@ import { TipoCartaoComponent } from './components/pages/tipo-cartao/tipo-cartao.
     DestaqueComponent,
     BgimgComponent,
     TipoCartaoComponent,
+    InterfaceAplicativoComponent,
+    MosaicoComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    MatFormFieldModule
+    MatFormFieldModule,
+    MatGridListModule
   ],
   providers: [ ],
   bootstrap: [AppComponent]
