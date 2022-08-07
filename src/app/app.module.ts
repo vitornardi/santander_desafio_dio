@@ -10,6 +10,7 @@ import { BannerComponent } from './components/pages/banner/banner.component';
 import { DestaqueComponent } from './components/pages/destaque/destaque.component';
 import { BgimgComponent } from './components/pages/bgimg/bgimg.component';
 import { FormsModule } from '@angular/forms';
+import { MatFormFieldModule, MAT_FORM_FIELD_DEFAULT_OPTIONS } from '@angular/material/form-field';
 
 @NgModule({
   declarations: [
@@ -24,9 +25,12 @@ import { FormsModule } from '@angular/forms';
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    FormsModule
+    FormsModule,
+    MatFormFieldModule
   ],
-  providers: [],
+  providers: [
+    {provide: MAT_FORM_FIELD_DEFAULT_OPTIONS, useValue: {appearance: 'fill'}}
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
