@@ -1,6 +1,6 @@
 # SantanderDio
 
-Pagina com referências ao site do Banco Santander, com o frontend desenvolvido em Bootstrap e Angular a ser entregue como último desafio do Bootcamp Santander Java Full Stack.
+Pagina com referências ao site do Banco Santander, com o frontend desenvolvido em Bootstrap e Angular a ser entregue como último desafio do Bootcamp Santander Java Full Stack. Futuramente quero implementar a tela de login e retornar os dados dp cliente assim como suas movimentações
 <br/>
 <br/>
 <br/>
