@@ -2,7 +2,9 @@
 
 Pagina com referências ao site do Banco Santander, com o frontend desenvolvido em Bootstrap e Angular a ser entregue como último desafio do Bootcamp Santander Java Full Stack.
 
-## ::About Angular::
+
+
+## About Angular
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.5.
 
 ## Development server
